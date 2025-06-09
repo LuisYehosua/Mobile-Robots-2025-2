@@ -46,7 +46,7 @@ def main():
             pub_larm_pose.publish(msg_la_pose)
         loop.sleep()
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     try:
         main()
     except rospy.ROSInterruptException:
