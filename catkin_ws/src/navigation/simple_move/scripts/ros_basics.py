@@ -5,7 +5,7 @@ from sensor_msgs.msg import LaserScan
 from geometry_msgs.msg import Twist
 from std_msgs.msg import Float64MultiArray
 
-NAME = "Luis Yehosua"
+NAME = "Luis Yehosu"
 
 def callback_scan(msg):
     global obstacle_detected
