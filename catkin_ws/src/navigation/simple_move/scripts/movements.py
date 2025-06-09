@@ -19,7 +19,7 @@ def arm_move(msg):
 
 def main():
     print("ROS BASICS - " + NAME)
-    rospy.init_node("ros_basics")
+    rospy.init_node("ros_movements")
     
     rospy.Subscriber("/hardware/scan", LaserScan, callback_scan)
     pub_cmd_vel = rospy.Publisher("/cmd_vel", Twist, queue_size=10)
